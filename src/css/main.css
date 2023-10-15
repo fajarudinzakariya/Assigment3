@@ -1,0 +1,219 @@
+* {
+    font-family: "poppins", sans-serif;
+
+}
+
+/* styling Navbar */
+.navbar {
+    position: fixed;
+    padding: 15px 0 19px 0;
+    width: 100%;
+}
+
+.navbar a {
+    color: #000000;
+    margin-left: 50px;
+    font-size: 20px;
+    padding: 5px 450px 5px 10px;
+    font-weight: 500;
+    text-decoration: none;
+
+}
+
+.navbar a:hover {
+    color: blueviolet;
+}
+
+.logo {
+    float: left;
+    margin-left: 50px;
+    margin-right: 400px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* styling homepage */
+header {
+    background-color: rgb(27, 2, 58);
+
+}
+
+.homepage .header-box {
+    color: #fff;
+    position: absolute;
+    top: 200px;
+}
+
+.homepage .images {
+    position: absolute;
+    top: 150px;
+    right: 100px;
+}
+
+.about {
+    background-color: #fff;
+}
+
+.about-box {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+.about h2 {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(27, 2, 58);
+}
+
+.about .imags {
+    padding-top: 50px;
+    padding-left: 520px;
+}
+
+.about p {
+    padding-top: 50px;
+    padding-left: 380px;
+    padding-right: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(27, 2, 58);
+
+}
+
+.experience {
+    background-color: aqua;
+}
+
+.ex-component {
+    padding-top: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+
+.skill {
+    background-color: rgb(88, 119, 229);
+    padding-top: 200px;
+    padding-left: 50px;
+
+}
+
+.skill h2 {
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 50px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.skills {
+    text-align: right;
+    /* Right-align text */
+    padding-top: 10px;
+    /* Add top padding */
+    padding-bottom: 10px;
+    /* Add bottom padding */
+    color: white;
+    /* White text color */
+}
+
+.html {
+    width: 90%;
+    background-color: #04AA6D;
+}
+
+/* Green */
+.css {
+    width: 80%;
+    background-color: #2196F3;
+}
+
+/* Blue */
+.js {
+    width: 65%;
+    background-color: #f44336;
+}
+
+/* Red */
+.php {
+    width: 60%;
+    background-color: #808080;
+}
+
+/* Dark Grey */
+.column {
+    padding-top: 200px;
+    float: left;
+    width: 25%;
+}
+
+.row {
+    margin: 0 -5px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+
+.footer {
+    padding: 50px 0 50px 0;
+    text-align: center;
+}
+
+.edu-component {
+    padding-top: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+.interests {
+    background-color: rgb(88, 119, 229);
+    padding-top: 200px;
+}
+
+.interests h2 {
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 50px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.interests p {
+    padding-top: 50px;
+    padding-left: 300px;
+    padding-right: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
